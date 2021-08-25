@@ -20,7 +20,7 @@
         <module>config</module>
 <!--        <module>fps</module>-->
 <!--        <module>ingress</module>-->
-<!--        <module>ntt</module>-->
+        <module>ntt</module>
 <!--        <module>registrar</module>-->
     </modules>
     <build>
