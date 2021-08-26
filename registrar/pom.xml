@@ -7,35 +7,23 @@
         <artifactId>microservice-parent-pom</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>ntt</artifactId>
+    <artifactId>registrar</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ntt</name>
-    <description>ntt</description>
+    <name>registrar</name>
+    <description>registrar</description>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.damonyuan.ntt.RegistrarApplication</start-class>
+        <start-class>com.damonyuan.registrar.RegistrarApplication</start-class>
         <java.version>1.8</java.version>
     </properties>
 

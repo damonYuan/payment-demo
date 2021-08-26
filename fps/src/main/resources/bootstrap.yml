@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ntt
+    name: fps
   profiles:
     active:
       default

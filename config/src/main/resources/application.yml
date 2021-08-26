@@ -1,8 +1,12 @@
 server:
   port: 8888
+
 spring:
   cloud:
     config:
+      discovery:
+        enabled: true
+        serviceId: config
       server:
         encrypt.enabled: false
         git:
